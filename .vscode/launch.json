@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "Array.SearchInRotatedSortedArray",
+            "projectName": "LeetCode_782969cf"
+        }
+    ]
+}
