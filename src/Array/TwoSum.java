@@ -1,28 +1,34 @@
 package Array;
 
-import java.util.HashMap;
-
 /**
  *
- * #1 Two Sum
+ * 1. Two Sum
  * Easy
  * @author zhuduan
- * 2018/09/10
+ * 2019/06/19
  */
 
 public class TwoSum {
-    public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer,Integer> map = new HashMap<Integer, Integer>();
-        int result[] = new int[2];
+    public static int[] twoSum(int[] nums, int target) {
+        int[] res = new int[2];
+
         for (int i = 0; i < nums.length; i++) {
-            if (map.containsKey(nums[i])) {
-                result[0] = map.get(nums[i]);
-                result[1] = i;
-                break;
-            } else {
-                map.put(target - nums[i], i);
+            for (int j = i + 1; j < nums.length; j++) {
+                if (target - nums[i] == nums[j]) {
+                    res[0] = i;
+                    res[1] = j;
+                }
             }
         }
-        return result;
+        return res;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {3,7,6,10};
+        int target = 9;
+        int[] res = twoSum(nums, target);
+        for (int n: res) {
+            System.out.println(n);
+        }
     }
 }
