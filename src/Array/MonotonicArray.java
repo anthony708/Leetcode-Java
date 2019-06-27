@@ -1,5 +1,12 @@
 package Array;
 
+/**
+ * 896. Monotonic Array
+ * Easy
+ * @author zhuduan
+ * 2019/06/26
+ */
+
 public class MonotonicArray {
     public boolean isMonotonic(int[] A) {
         boolean inc = true, dec = true;
