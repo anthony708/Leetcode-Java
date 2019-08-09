@@ -34,4 +34,23 @@ public class TopKFrequentElements {
         }
         return res;
     }
+
+    public List<Integer> topKFrequentM2(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i: nums) {
+            map.put(i, map.getOrDefault(i, 0) + 1);
+        }
+
+        // use maxHeap. Put entry into maxHeap, so can always poll a number with largest frequency
+        PriorityQueue<Map.Entry<Integer,Integer>> maxHeap = new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
+        for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
+            maxHeap.add(entry);
+        }
+
+        List<Integer> res = new ArrayList<>();
+        while (res.size() < k) {
+            res.add(maxHeap.poll().getKey());
+        }
+        return res;
+    }
 }
