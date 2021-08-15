@@ -1,4 +1,4 @@
-package com.github.anthony708.java.Leetcode.Archive;
+package com.github.anthony708.java.LeetCode.Archive;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package com.github.anthony708.java.Leetcode.Greedy;
+package com.github.anthony708.java.LeetCode.Greedy;
 
 import java.util.Arrays;
 
@@ -18,7 +18,7 @@ import java.util.Arrays;
 
 */
 
-class Solution {
+class FindContentChildren {
     public static int findContentChildren(int[] g, int[] s) {
         int i = 0;
         int j = 0;

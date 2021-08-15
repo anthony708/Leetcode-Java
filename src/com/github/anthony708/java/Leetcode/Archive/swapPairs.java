@@ -1,4 +1,4 @@
-package com.github.anthony708.java.Leetcode.Archive;
+package com.github.anthony708.java.LeetCode.Archive;
 
 /**
  * Created by Anthony on 15/12/4.
