@@ -24,18 +24,16 @@ class FindContentChildren {
         int j = 0;
         Arrays.sort(g);
         Arrays.sort(s);
-        int children = 0;
 
         while (i <= g.length - 1 && j <= s.length - 1) {
             if (g[i] <= s[j]) {
-                children++;
                 i++;
                 j++;
             } else {
                 j++;
             }
         }
-        return children;
+        return i;
     }
 
     public static void main(String[] args) {
