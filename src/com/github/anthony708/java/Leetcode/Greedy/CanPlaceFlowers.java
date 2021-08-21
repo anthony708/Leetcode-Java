@@ -1,12 +1,10 @@
 /*
  * @Author: Anthony
  * @Date: 2021-08-17 23:51:27
- * @LastEditTime: 2021-08-18 01:00:48
+ * @LastEditTime: 2021-08-21 17:25:39
  */
 
 package com.github.anthony708.java.LeetCode.Greedy;
-
-import java.util.ArrayList;
 
 /**
  * 605. 种花问题
@@ -19,25 +17,19 @@ import java.util.ArrayList;
 
 class CanPlaceFlowers {
     public static boolean canPlaceFlowers(int[] flowerbed, int n) {
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(0);
-        for (Integer i : flowerbed) {
-            list.add(i);
+        int [] newFlowerbed = new int[flowerbed.length + 2];
+        newFlowerbed[0] = 0;
+        newFlowerbed[flowerbed.length + 2 - 1] = 0;
+        for (int i = 0 ; i < flowerbed.length; i++) {
+            newFlowerbed[i + 1] = flowerbed[i];
         }
-        list.add(0);
 
-        int count0 = 0;
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) == 0) {
-                count0++;
-            } else {
-                if (count0 >= 3) {
-                    n -= (count0 - 1) / 2;
-                } 
-                count0 = 0;
+        for (int i = 1; i <= flowerbed.length; i++) {
+            if (newFlowerbed[i-1] == 0 && newFlowerbed[i] == 0 && newFlowerbed[i+1] == 0) {
+                newFlowerbed[i] = 1;
+                n -= 1;
             }
         }
-
         return n <= 0;
     }
 
