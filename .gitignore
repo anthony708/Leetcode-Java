@@ -1,5 +1,6 @@
-.DS_Store
-.idea
-.vscode
+*.idea
+*.vscode
+*.iml
+tests
 out
-src/*DS_Store
+.DS_Store
