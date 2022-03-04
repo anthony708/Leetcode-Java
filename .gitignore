@@ -1,5 +1,5 @@
 .DS_Store
-.idea*
-.vscode*
-out*
+.idea
+.vscode
+out
 src/*DS_Store
