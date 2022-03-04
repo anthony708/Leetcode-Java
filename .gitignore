@@ -1,0 +1,5 @@
+.DS_Store
+.idea*
+.vscode*
+out*
+src/*DS_Store
