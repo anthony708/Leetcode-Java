@@ -1,6 +1,6 @@
-package BinarySearch;
+package main.java.BinarySearch;
 
-import Util.VersionControl;
+import main.java.Util.VersionControl;
 
 /**
  * #278 First Bad Version

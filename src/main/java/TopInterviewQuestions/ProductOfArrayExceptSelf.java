@@ -1,4 +1,4 @@
-package TopInterviewQuestions;
+package main.java.TopInterviewQuestions;
 
 /*
     238. Product of Array Except Self

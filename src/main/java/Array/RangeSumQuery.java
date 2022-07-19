@@ -1,4 +1,4 @@
-package Array;
+package main.java.Array;
 
 /**
  * #303 Range Sum Query - Immutable

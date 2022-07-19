@@ -1,6 +1,6 @@
-package Tree;
+package main.java.Tree;
 
-import Util.TreeNode;
+import main.java.Util.TreeNode;
 
 /**
  * 226. Invert Binary Tree

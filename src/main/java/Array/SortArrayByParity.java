@@ -1,4 +1,4 @@
-package Array;
+package main.java.Array;
 
 /**
  * 905. Sort Array By Parity

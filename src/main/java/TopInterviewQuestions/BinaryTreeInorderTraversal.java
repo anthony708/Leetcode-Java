@@ -1,4 +1,4 @@
-package TopInterviewQuestions;
+package main.java.TopInterviewQuestions;
 
 /*
     94. Binary Tree Inorder Traversal
@@ -6,7 +6,7 @@ package TopInterviewQuestions;
     2019-08-07
  */
 
-import Util.TreeNode;
+import main.java.Util.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

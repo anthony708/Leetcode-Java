@@ -1,7 +1,7 @@
-package Util.SortUtil;
+package main.java.Util.SortUtil;
 
 
-public class InsertSort {
+class InsertSort {
 
     //从待插入数组取出第一个数, 插入前面有序的数组
 

@@ -1,4 +1,4 @@
-package BinarySearch;
+package main.java.BinarySearch;
 
 /**
  * 704. Binary Search

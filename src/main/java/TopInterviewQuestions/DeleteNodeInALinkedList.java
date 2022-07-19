@@ -1,6 +1,6 @@
-package TopInterviewQuestions;
+package main.java.TopInterviewQuestions;
 
-import Util.ListNode;
+import main.java.Util.ListNode;
 
 /*
     237. Delete Node in a Linked List

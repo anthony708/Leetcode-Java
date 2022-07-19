@@ -1,6 +1,6 @@
-package Util.SortUtil;
+package main.java.Util.SortUtil;
 
-import static Util.Swap.swap;
+import static main.java.Util.Swap.swap;
 
 public class Quicksort {
     public static void quickSort(int[] arr, int left, int right) {

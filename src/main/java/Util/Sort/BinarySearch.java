@@ -1,4 +1,4 @@
-package Util.Sort;
+package main.java.Util.Sort;
 
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target, int low, int high) {

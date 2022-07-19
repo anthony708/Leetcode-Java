@@ -1,4 +1,4 @@
-package Util.Sort;
+package main.java.Util.Sort;
 
 
 public class Insertsort {

@@ -1,4 +1,4 @@
-package Util;
+package main.java.Util;
 
 public class VersionControl {
     protected static boolean isBadVersion(int version) {

@@ -1,4 +1,4 @@
-package Array;
+package main.java.Array;
 
 /**
  * 1013. Partition Array Into Three Parts With Equal Sum

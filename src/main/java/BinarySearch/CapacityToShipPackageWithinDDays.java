@@ -1,4 +1,4 @@
-package BinarySearch;
+package main.java.BinarySearch;
 
 /**
  * 1011. Capacity To Ship Packages Within D Days

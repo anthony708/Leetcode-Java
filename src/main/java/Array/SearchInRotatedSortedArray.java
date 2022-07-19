@@ -1,6 +1,6 @@
-package Array;
+package main.java.Array;
 
-import Util.Sort.BinarySearch;
+import main.java.Util.Sort.BinarySearch;
 
 /**
  *

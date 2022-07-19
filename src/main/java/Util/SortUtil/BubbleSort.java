@@ -1,6 +1,6 @@
-package Util.SortUtil;
+package main.java.Util.SortUtil;
 
-import static Util.Swap.swap;
+import static main.java.Util.Swap.swap;
 
 /**
  * 冒泡排序, 每次从数组底部将两两相近的元素比较, 排序

@@ -1,4 +1,4 @@
-package BinarySearch;
+package main.java.BinarySearch;
 
 /**
  * 852. Peak Index in a Mountain Array

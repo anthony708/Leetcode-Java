@@ -1,4 +1,4 @@
-package Application;
+package main.java.Application;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Base64;

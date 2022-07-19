@@ -1,4 +1,4 @@
-package TopInterviewQuestions;
+package main.java.TopInterviewQuestions;
 
 /*
     283. Move Zeroes

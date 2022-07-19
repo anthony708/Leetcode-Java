@@ -1,4 +1,4 @@
-package TopInterviewQuestions;
+package main.java.TopInterviewQuestions;
 
 /*
     104. Maximum Depth of Binary Tree
@@ -6,7 +6,7 @@ package TopInterviewQuestions;
     2019-07-26
  */
 
-import Util.TreeNode;
+import main.java.Util.TreeNode;
 
 public class MaximumDepthofBinaryTree {
     public int maxDepth(TreeNode root) {

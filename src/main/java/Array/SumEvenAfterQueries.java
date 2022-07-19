@@ -1,4 +1,4 @@
-package Array;
+package main.java.Array;
 
 /**
  * 985. Sum of Even Numbers After Queries

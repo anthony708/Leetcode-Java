@@ -1,4 +1,4 @@
-package Util;
+package main.java.Util;
 
 public class Swap {
     public static void swap(int[] data, int i, int j) {

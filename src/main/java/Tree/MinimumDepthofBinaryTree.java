@@ -1,6 +1,6 @@
-package Tree;
+package main.java.Tree;
 
-import Util.TreeNode;
+import main.java.Util.TreeNode;
 
 /**
  * #111 Minimum Depth of Binary Tree
