@@ -1,6 +1,6 @@
-package LinkedList;
+package main.java.LinkedList;
 
-import Util.ListNode;
+import main.java.Util.ListNode;
 
 /**
  * 876. Middle of the Linked List

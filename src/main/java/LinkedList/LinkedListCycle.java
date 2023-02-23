@@ -1,6 +1,6 @@
-package LinkedList;
+package main.java.LinkedList;
 
-import Util.ListNode;
+import main.java.Util.ListNode;
 
 /**
  * 141. Linked List Cycle

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Base64Test",
+            "request": "launch",
+            "mainClass": "Application.Base64Test",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SearchInRotatedSortedArray",
             "request": "launch",
             "mainClass": "Array.SearchInRotatedSortedArray",
