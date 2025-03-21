@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
             "name": "Launch Base64Test",
             "request": "launch",
             "mainClass": "Application.Base64Test",
