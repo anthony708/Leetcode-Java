@@ -1,11 +1,11 @@
-/*
+package wrapup;/*
  * @lc app=leetcode id=121 lang=java
  *
  * [121] Best Time to Buy and Sell Stock
  */
 
 // @lc code=start
-class Solution {
+class maxProfit {
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
         int min = 0;

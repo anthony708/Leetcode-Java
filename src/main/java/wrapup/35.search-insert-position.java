@@ -1,11 +1,11 @@
-/*
+package wrapup;/*
  * @lc app=leetcode id=35 lang=java
  *
  * [35] Search Insert Position
  */
 
 // @lc code=start
-class Solution {
+class searchInsert {
     public int searchInsert(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;

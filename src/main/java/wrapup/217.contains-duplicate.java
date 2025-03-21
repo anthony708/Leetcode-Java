@@ -1,3 +1,5 @@
+package wrapup;
+
 import java.util.HashMap;
 
 /*
@@ -7,7 +9,7 @@ import java.util.HashMap;
  */
 
 // @lc code=start
-class Solution {
+class containsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i: nums) {

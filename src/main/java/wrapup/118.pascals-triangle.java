@@ -1,3 +1,5 @@
+package wrapup;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +11,7 @@ import java.util.List;
  */
 
 // @lc code=start
-class Solution {
+class generate {
     public List<List<Integer>> generate(int numRows) {
         int[][] pascal = new int[numRows][];
         for (int i = 0; i < numRows; i++) {

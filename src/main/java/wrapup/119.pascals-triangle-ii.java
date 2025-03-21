@@ -1,3 +1,5 @@
+package wrapup;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ import java.util.List;
  */
 
 // @lc code=start
-class Solution {
+class getRow {
     public List<Integer> getRow(int rowIndex) {
         // 每一行从后向前遍历, 利用 res[j] = res[j] + res[j - 1]
         List<Integer> res = new ArrayList<>(rowIndex + 1);

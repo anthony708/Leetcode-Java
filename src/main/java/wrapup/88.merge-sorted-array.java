@@ -1,13 +1,13 @@
-/*
+package wrapup;/*
  * @lc app=leetcode id=88 lang=java
  *
  * [88] Merge Sorted Array
  */
 
 // @lc code=start
-class Solution {
+class merge {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        // merge sort, Time complexity: O(m+n), Space complexity: O(1)
+        // wrapup.merge sort, Time complexity: O(m+n), Space complexity: O(1)
         int i = m - 1;
         int j = n - 1;
         int k = m + n - 1;
