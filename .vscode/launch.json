@@ -2,16 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "LengthOfLongestSubstring",
+            "name": "MaxSlidingWindow",
             "request": "launch",
-            "mainClass": "hot100.LengthOfLongestSubstring",
-            "projectName": "LeetCode"
-        },
-        {
-            "type": "java",
-            "name": "TwoSum",
-            "request": "launch",
-            "mainClass": "hot100.TwoSum",
+            "mainClass": "hot100.MaxSlidingWindow",
             "projectName": "LeetCode"
         },
         {
@@ -28,19 +21,5 @@
             "mainClass": "Solution",
             "projectName": "LeetCode"
         },
-        {
-            "type": "java",
-            "name": "Launch Base64Test",
-            "request": "launch",
-            "mainClass": "Application.Base64Test",
-            "projectName": "LeetCode"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SearchInRotatedSortedArray",
-            "request": "launch",
-            "mainClass": "Array.SearchInRotatedSortedArray",
-            "projectName": "LeetCode_782969cf"
-        }
     ]
 }
