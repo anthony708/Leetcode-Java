@@ -2,9 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "MaxSlidingWindow",
+            "name": "QuickSort",
             "request": "launch",
-            "mainClass": "hot100.MaxSlidingWindow",
+            "mainClass": "hot100.QuickSort",
             "projectName": "LeetCode"
         },
         {
