@@ -27,31 +27,68 @@ public class FindKthLargest {
         for (int i = n / 2 - 1; i >= 0; i--) {
             heapify(nums, n, i);
         }
-        int res = 0;
         for (int i = n - 1; i >= (n - k); i--) {
             swap(nums, i, 0);
             heapify(nums, i, 0);
-            if (i == n - k) {
-                res = nums[i];
-            }
         }
-        return res;
+        return nums[n - k];
     }
 
-    public static void heapify(int[] nums, int heapSize, int i) {
+    public static void heapSort(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return;
+        }
+
+        int n = nums.length;
+
+        for (int i = n / 2 - 1; i >= 0; i--) {
+            heapify(nums, n, i);
+        }
+
+        for (int i = n - 1; i > 0; i--) {
+            swap(nums, i, 0);
+            heapify(nums, i, 0);
+        }
+
+    }
+
+    private static void heapify(int[] nums, int heapSize, int i) {
         int largest = i;
         int left = 2 * i + 1;
         int right = 2 * i + 2;
-        if (nums[largest] < nums[left]) {
+
+        if (left < heapSize && nums[left] > nums[largest]) {
             largest = left;
         }
-        if (nums[largest] < nums[right]) {
+        if (right < heapSize && nums[right] > nums[largest]) {
             largest = right;
         }
         if (largest != i) {
-            swap(nums, largest, i);
+            swap(nums, i, largest);
             heapify(nums, heapSize, largest);
         }
+    }
+
+    public static void quickSort(int[] nums, int low, int high) {
+        if (low < high) {
+            int partition = partition(nums, low, high);
+            quickSort(nums, low, partition - 1);
+            quickSort(nums, partition + 1, high);
+        }
+    }
+
+    private static int partition(int[] nums, int low, int high) {
+        int pivot = nums[high];
+        int pointer = low;
+
+        for (int i = low; i < high; i++) {
+            if (nums[i] <= pivot) {
+                swap(nums, i, pointer);
+                pointer++;
+            }
+        }
+        swap(nums, high, pointer);
+        return pointer;
     }
 
     private static void swap(int[] nums, int i, int j) {
