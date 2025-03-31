@@ -1,11 +1,6 @@
 package hot100;
 
 public class QuickSort {
-    public static int findKthLargest(int[] nums, int k) {
-        quickSort(nums, 0, nums.length - 1);
-        return nums[nums.length - k];
-    }
-
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             // 选择一个基准值
@@ -43,10 +38,10 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] arr = {3,2,1,5,6,4};
-        // quickSort(arr, 0, arr.length - 1);
-        // for (int i: arr) {
-        //     System.out.println(i);
-        // }
-        System.out.println(findKthLargest(arr, 2));
+        quickSort(arr, 0, arr.length - 1);
+        for (int i: arr) {
+            System.out.println(i);
+        }
+        
     }
 }
