@@ -2,17 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "SearchMatrixII",
-            "name": "LongestCommonPrefix",
+            "name": "Rob",
             "request": "launch",
-            "mainClass": "hot100.LongestCommonPrefix",
-            "projectName": "LeetCode"
-        },
-        {
-            "type": "java",
-            "name": "QuickSort",
-            "request": "launch",
-            "mainClass": "hot100.SearchMatrixII",
+            "mainClass": "hot100.Rob",
             "projectName": "LeetCode"
         },
         {
