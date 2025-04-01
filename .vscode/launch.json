@@ -2,9 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "QuickSort",
+            "name": "SearchMatrixII",
             "request": "launch",
-            "mainClass": "hot100.QuickSort",
+            "mainClass": "hot100.SearchMatrixII",
             "projectName": "LeetCode"
         },
         {
