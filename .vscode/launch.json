@@ -3,6 +3,14 @@
         {
             "type": "java",
             "name": "SearchMatrixII",
+            "name": "LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "hot100.LongestCommonPrefix",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
             "request": "launch",
             "mainClass": "hot100.SearchMatrixII",
             "projectName": "LeetCode"
@@ -20,6 +28,6 @@
             "request": "launch",
             "mainClass": "Solution",
             "projectName": "LeetCode"
-        },
+        }
     ]
 }
