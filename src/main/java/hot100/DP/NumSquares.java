@@ -30,7 +30,7 @@ public class NumSquares {
         f[0] = 0;
         for (int i = 1; i <= n; i++) {
             int minn = Integer.MAX_VALUE;
-            for (int j = i; j * j <= i; j++) {
+            for (int j = 1; j * j <= i; j++) {
                 minn = Math.min(minn, f[i - j * j]);
             }
             f[i] = minn + 1;
