@@ -19,7 +19,7 @@ public class MergeSort {
     }
 
     private static void merge(int[] nums, int left, int mid, int right, int[] temp) {
-        System.arraycopy(nums, left, temp, left, right - left + 1);
+        System.arraycopy(nums, left, temp, right, right - left + 1);
         int i = left, j = mid + 1, k = left;
         while (i <= mid && j <= right) {
             if (temp[i] <= temp[j]) {
