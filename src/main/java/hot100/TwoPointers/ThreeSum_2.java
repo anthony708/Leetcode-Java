@@ -26,7 +26,7 @@ public class ThreeSum_2 {
             while (left < right) {
                 int sum = nums[i] + nums[left] + nums[right];
                 if (sum == target) {
-                    res.add(Arrays.asList(nums[i], nums[left], nums[right]]));
+                    res.add(Arrays.asList(nums[i], nums[left], nums[right]));
 
                     // 跳过重复的 left 和 right
                     while (left < right && nums[left] == nums[left + 1]) left++;
