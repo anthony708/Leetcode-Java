@@ -1,5 +1,8 @@
 package hot100.LinkedList;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import hot100.utils.ListNode;
 
 /*
@@ -47,17 +50,21 @@ skipB - 在 listB 中（从头节点开始）跳到交叉节点的节点数
 
 public class GetIntersectionNode {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) {
-            return null;
-        }
+        Set<ListNode> set = new HashSet<>();
 
-        ListNode pA = headA, pB = headB;
-        while(pA != pB) {
-            // 若 pA 和 pB 到达 链表末端, 则指向对方链表继续遍历
-            pA = pA == null ? headB : pA.next;
-            pB = pB == null ? headA: pB.next;
+        ListNode tempA = headA; 
+        while(tempA != null) {
+            set.add(tempA);
+            tempA = tempA.next;
         }
-
-        return pA;
-    } 
+        ListNode tempB = headB;
+        while (tempB != null) {
+            if (set.contains(tempB)) {
+                return tempB;
+            } else {
+                tempB = tempB.next;
+            }
+        }
+        return null;
+    }
 }

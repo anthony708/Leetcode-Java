@@ -2,9 +2,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Rob",
+            "name": "BinarySearch",
             "request": "launch",
-            "mainClass": "hot100.Rob",
+            "mainClass": "hot100.BinarySearch.BinarySearch",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "WordPattern",
+            "request": "launch",
+            "mainClass": "hot100.Map.WordPattern",
             "projectName": "LeetCode"
         },
         {
